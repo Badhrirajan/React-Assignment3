@@ -7,7 +7,7 @@ export default function Header() {
     <div className="container-fluid">
         <div className="row mt-2">
             <div className="col-4">
-                <img src="https://www.guvi.in/blog/wp-content/uploads/2022/04/Guvi-blog-logo.png" alt="logo" />
+                <img src="./Images/logo.webp" alt="logo" />
             </div>
             <div className="col-8">
             <nav class="navbar">
@@ -26,7 +26,7 @@ export default function Header() {
     <div className="rectangle mt-1">
     <div>
         <div>
-            <img src="https://www.guvi.in/blog/wp-content/uploads/2022/10/blog-header-2048x315.png" alt="container" style={{width: "80%", height: "25vh"}} />
+            <img src="./Images/Header.webp" alt="container" style={{width: "80%", height: "25vh"}} />
         </div>   
     </div>
     </div>
