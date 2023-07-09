@@ -5,7 +5,7 @@ export default function Header() {
   return (<section>
     <div className="container">
     <div className="container-fluid">
-        <div className="row mt-2">
+        <div className="row mt-2 d-flex">
             <div className="col-4">
                 <img src="./Images/logo.webp" alt="logo" />
             </div>
@@ -24,15 +24,12 @@ export default function Header() {
     </div>
     </div>
     <div className="rectangle mt-1">
-    <div>
         <div>
             <img src="./Images/Header.webp" alt="container" style={{width: "80%", height: "25vh"}} />
-        </div>   
+        </div>
     </div>
-    </div>
-    <div className='container-fluid'>
+    <div className='container'>    
     <div className="row">
-        <div>
             <nav class="navbar navbar-expand-lg">
                     <div class="collapse navbar-collapse justify-content-center align-item-center" id="navbarNav">
                         <ul class="navbar-nav">
@@ -55,8 +52,7 @@ export default function Header() {
                     </div>
                 </nav>
             </div>
-        </div>
-    </div>
+        </div>       
 </section>
   );
 }

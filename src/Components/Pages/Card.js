@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Card({data = []}) {
   return (
-        <div className="col-4">
+        <div className="col-4 d-flex">
                     <div className="card box mt-4" style={{width: "18rem"}}>
                           <img src={data.image} class="card-img-top" alt="..." style={{height: "150px"}}/>
                         <div className="card-body">
